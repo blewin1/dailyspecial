@@ -864,8 +864,8 @@ ul {
 }
 
 .footer-logo {
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
     margin: 0 auto 0.75rem;
     opacity: 0.75;
 }
@@ -909,6 +909,13 @@ ul {
 .footer-bottom p {
     color: rgba(255, 255, 255, 0.3);
     font-size: 0.85rem;
+}
+
+.footer-email {
+    color: rgba(255, 255, 255, 0.55) !important;
+    font-size: 0.95rem !important;
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.02em;
 }
 
 /* ============================================
