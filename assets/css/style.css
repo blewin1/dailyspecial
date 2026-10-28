@@ -561,6 +561,12 @@ ul {
     font-style: italic;
 }
 
+/* Section-level CTA button (e.g. "More Performances") */
+.section-cta {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
 /* ============================================
    Members
    ============================================ */
