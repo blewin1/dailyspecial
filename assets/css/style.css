@@ -23,7 +23,7 @@
     --bg-alt: #241C3E;
 
     --font-display: 'Boogaloo', cursive;
-    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-heading: 'Lato', 'Open Sans', sans-serif;
     --font-body: 'Nunito', 'Open Sans', Helvetica, sans-serif;
     --transition: 0.3s ease;
     --container-width: 1140px;
@@ -239,10 +239,20 @@ ul {
     font-size: 1.5rem;
     color: var(--white);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .nav-logo:hover {
     color: var(--purple-lighter);
+}
+
+.nav-logo-img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .nav-links {
@@ -550,15 +560,17 @@ ul {
 
 .video-card h3 {
     font-family: var(--font-heading);
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 700;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
 }
 
 .video-card p {
     color: var(--white-muted);
     font-size: 0.88rem;
     font-style: italic;
+    line-height: 1.5;
 }
 
 /* Section-level CTA button (e.g. "More Performances") */

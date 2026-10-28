@@ -283,8 +283,10 @@
                 + '<iframe src="' + embedUrl + '" title="' + escapeHtml(title)
                 + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>'
                 + '</div>'
+                + '<div class="video-info">'
                 + '<h3>' + escapeHtml(title) + '</h3>'
                 + '<p>' + escapeHtml(description) + '</p>'
+                + '</div>'
                 + '</div>';
         });
 
