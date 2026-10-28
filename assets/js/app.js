@@ -244,7 +244,7 @@
         if (!container || !rows.length) return;
 
         var html = '';
-        rows.forEach(function (row) {
+        rows.forEach(function (row, i) {
             var content = row.content || row.text || '';
             if (content) {
                 html += '<p>' + content + '</p>';

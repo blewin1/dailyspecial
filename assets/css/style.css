@@ -125,7 +125,6 @@ ul {
     font-size: 1.1rem;
     margin-bottom: 3rem;
     font-style: italic;
-    font-family: var(--font-heading);
 }
 
 /* --- Wave Dividers --- */
@@ -416,14 +415,6 @@ ul {
     margin-bottom: 4rem;
 }
 
-.about-text .lead {
-    font-family: var(--font-heading);
-    font-size: 1.35rem;
-    font-style: italic;
-    color: var(--purple-lighter);
-    margin-bottom: 1.25rem;
-    line-height: 1.5;
-}
 
 .about-text p {
     color: var(--white-muted);
@@ -1008,6 +999,9 @@ ul {
         font-size: 1.1rem;
     }
 
+    .hero-content {
+        padding-top: 14rem;
+    }
 
     .section {
         padding: 3.5rem 0;
@@ -1056,6 +1050,9 @@ ul {
         font-size: 0.95rem;
     }
 
+    .hero-content {
+        padding-top: 10rem;
+    }
 
     .hero-actions {
         flex-direction: column;

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#2d1b4e" rx="12"/>
-  <circle cx="200" cy="180" r="80" fill="none" stroke="#6b21a8" stroke-width="4"/>
-  <circle cx="200" cy="180" r="25" fill="#6b21a8"/>
-  <text x="200" y="300" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="sans-serif" font-size="18" font-weight="bold">The Monday Album</text>
-  <text x="200" y="325" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="sans-serif" font-size="14">Add album art</text>
-</svg>
