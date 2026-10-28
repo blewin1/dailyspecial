@@ -1,174 +1,389 @@
-<!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Daily Special</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="landing is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daily Special | Barbershop Quartet</title>
+    <meta name="description" content="Daily Special is a barbershop quartet based in southern New England. Award-winning harmony, comedy, and entertainment for any event." />
+    <meta name="keywords" content="barbershop quartet, Daily Special, a cappella, New England, live music, entertainment, booking" />
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Daily Special | Barbershop Quartet" />
+    <meta property="og:description" content="Award-winning barbershop quartet based in southern New England. Serving up smiles!" />
+    <meta property="og:image" content="images/banner.jpg" />
+    <meta property="og:type" content="website" />
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Daily Special</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Daily Special</h2>
-							<p>Barbershop Quartet</p>
-							<!-- <ul class="actions special">
-								<li><a href="#" class="button primary">Buy our CD!</a></li>
-							</ul> -->
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet" />
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Serving Up Smiles</h2>
-								<p>Daily Special is a barbershop quartet based in southern New England. They have sung for all kinds of audiences, bringing silliness, enthusiasm, and authenticity to every performance.
-They love to sing for all kinds of events.</p>
-								<p>Invite them to sing for yours today!</p>
-							</header>
-							<span class="icons major"><img src=images/staff.svg></span>
-							<!-- <ul class="icons major">
-								<li><span class="icon fas fa-music major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul> -->
-						</div>
-					</section>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><iframe src="https://www.youtube-nocookie.com/embed/ND3zgBkulrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
+    <!-- Nav -->
+    <nav id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">Daily Special</a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#album">Album</a></li>
+                <li><a href="#booking">Book Us</a></li>
+            </ul>
+        </div>
+    </nav>
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Daily Special</h1>
+            <p class="hero-tagline">Barbershop Quartet &bull; Serving Up Smiles</p>
+            <div class="hero-actions">
+                <a href="#booking" class="btn btn-primary">Book Us</a>
+                <a href="#videos" class="btn btn-outline">Watch Us Sing</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="Scroll to about section">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+    <!-- Wave divider -->
+    <div class="wave-divider">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 L1200,120 L0,120 Z" />
+        </svg>
+    </div>
 
-			</div>
+    <!-- About -->
+    <section id="about" class="section section-warm">
+        <div class="container">
+            <h2 class="section-title"><span class="title-accent">About Daily Special</span></h2>
+            <div class="about-layout">
+                <div class="about-image">
+                    <div class="fun-frame">
+                        <div class="fun-frame-crop">
+                            <img src="images/2025 Denver QQF-Daily Special (NED)-0223.JPG" alt="Daily Special performing on stage" />
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" id="about-text">
+                    <p class="lead">Heartfelt. Original. Silly. Theatrical. <em>Hungry.</em></p>
+                    <p>Daily Special is a barbershop quartet based in southern New England. They have served their unique flavor of barbershop harmony at music venues across the country.</p>
+                    <p>Always striving for musical excellence, they have won numerous accolades including the Northeastern District Quartet Championship in 2019 and five quarterfinals appearances at the International Barbershop Harmony Society Quartet Championships. They earned the Audience Favorite award at the 2024 BHS International Comedy Quartet Festival.</p>
+                    <p>Flexible and well-versed in a variety of music, the quartet is equally comfortable performing hilarious, quirky tunes that audiences of all ages will enjoy and more traditional, familiar barbershop standards filled with beauty and authenticity. The members of Daily Special are committed to making music with heart, positivity, and a healthy dose of absurdity. They love to sing for all audiences, and they can't wait to perform for you!</p>
+                </div>
+            </div>
+            <div class="about-highlights">
+                <div class="highlight">
+                    <div class="highlight-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>NED Champions</h3>
+                    <p>2019 Northeastern District Quartet Champions</p>
+                </div>
+                <div class="highlight">
+                    <div class="highlight-icon"><i class="fas fa-laugh-beam"></i></div>
+                    <h3>Audience Favorite</h3>
+                    <p>2024 BHS International Comedy Quartet Festival</p>
+                </div>
+                <div class="highlight">
+                    <div class="highlight-icon"><i class="fas fa-music"></i></div>
+                    <h3>6x International</h3>
+                    <p>Six quarterfinals appearances at BHS International</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- Wave divider -->
+    <div class="wave-divider wave-flip">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 L1200,120 L0,120 Z" />
+        </svg>
+    </div>
 
-	</body>
+    <!-- Videos -->
+    <section id="videos" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title"><span class="title-accent">Watch Us Perform</span></h2>
+            <div class="videos-grid" id="videos-grid">
+                <div class="video-card">
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube-nocookie.com/embed/ND3zgBkulrA" title="No One Else Is Singing My Song - BHS International 2024" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>No One Else Is Singing My Song</h3>
+                        <p>from Crazy Ex-Girlfriend &bull; BHS International 2024</p>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-embed">
+                        <!-- Placeholder: Replace with actual YouTube embed URL -->
+                        <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID_2" title="Plain Plate of Noodles - BHS International 2023" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Plain Plate of Noodles</h3>
+                        <p>from John Mulaney and The Sack Lunch Bunch &bull; BHS International 2023</p>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-embed">
+                        <!-- Placeholder: Replace with actual YouTube embed URL -->
+                        <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID_3" title="It's You I Like - BHS International 2019" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>It's You I Like</h3>
+                        <p>from Mr. Rogers' Neighborhood &bull; BHS International 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave divider -->
+    <div class="wave-divider">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 L1200,120 L0,120 Z" />
+        </svg>
+    </div>
+
+    <!-- Members -->
+    <section id="members" class="section section-warm">
+        <div class="container">
+            <h2 class="section-title"><span class="title-accent">Meet the Quartet</span></h2>
+            <div class="members-grid" id="members-grid">
+                <div class="member-card">
+                    <div class="member-photo">
+                        <!-- Replace with actual headshot -->
+                        <img src="images/isaac-head.png" alt="Isaac - Tenor" />
+                    </div>
+                    <h3>Isaac</h3>
+                    <span class="member-part">Tenor</span>
+                    <p class="member-bio">Bio placeholder - Update via Google Sheet or replace this text directly.</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-photo">
+                        <img src="images/chad-head.png" alt="Chad - Lead" />
+                    </div>
+                    <h3>Chad</h3>
+                    <span class="member-part">Lead</span>
+                    <p class="member-bio">Bio placeholder - Update via Google Sheet or replace this text directly.</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-photo">
+                        <img src="images/ben-head.png" alt="Ben - Baritone" />
+                    </div>
+                    <h3>Ben</h3>
+                    <span class="member-part">Baritone</span>
+                    <p class="member-bio">Bio placeholder - Update via Google Sheet or replace this text directly.</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-photo">
+                        <img src="images/cay-head.png" alt="Cay - Bass" />
+                    </div>
+                    <h3>Cay</h3>
+                    <span class="member-part">Bass</span>
+                    <p class="member-bio">Bio placeholder - Update via Google Sheet or replace this text directly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave divider -->
+    <div class="wave-divider wave-flip">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 L1200,120 L0,120 Z" />
+        </svg>
+    </div>
+
+    <!-- Repertoire -->
+    <section id="repertoire" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title"><span class="title-accent">Our Repertoire</span></h2>
+            <p class="section-subtitle">A sampling of what we love to sing</p>
+            <div class="repertoire-grid">
+                <div class="repertoire-item">
+                    <div class="rep-icon"><i class="fas fa-bolt"></i></div>
+                    <div>
+                        <strong>"Horace the Horse"</strong>
+                        <span>A high-energy, uptempo show opener</span>
+                    </div>
+                </div>
+                <div class="repertoire-item">
+                    <div class="rep-icon"><i class="fas fa-cookie-bite"></i></div>
+                    <div>
+                        <strong>"If Moon Was Cookie"</strong>
+                        <span>from Sesame Street &mdash; a hilarious yet introspective take on "be careful what you wish for"</span>
+                    </div>
+                </div>
+                <div class="repertoire-item">
+                    <div class="rep-icon"><i class="fas fa-hat-wizard"></i></div>
+                    <div>
+                        <strong>"The Maladjusted Jester"</strong>
+                        <span>from The Court Jester &mdash; a comedic solo sung by Isaac</span>
+                    </div>
+                </div>
+                <div class="repertoire-item">
+                    <div class="rep-icon"><i class="fas fa-frog"></i></div>
+                    <div>
+                        <strong>"This Frog"</strong>
+                        <span>from The Muppet Show &mdash; Ben's dramatic solo about following dreams... as a frog</span>
+                    </div>
+                </div>
+                <div class="repertoire-item">
+                    <div class="rep-icon"><i class="fas fa-heart"></i></div>
+                    <div>
+                        <strong>"You've Got a Friend"</strong>
+                        <span>by Carole King &mdash; a midtempo song about friendship through hard times</span>
+                    </div>
+                </div>
+                <div class="repertoire-item">
+                    <div class="rep-icon"><i class="fas fa-ellipsis-h"></i></div>
+                    <div>
+                        <strong>And much more!</strong>
+                        <span>We're always adding new songs to our repertoire</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave divider -->
+    <div class="wave-divider">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 L1200,120 L0,120 Z" />
+        </svg>
+    </div>
+
+    <!-- Album -->
+    <section id="album" class="section section-warm">
+        <div class="container">
+            <div class="album-layout">
+                <div class="album-art">
+                    <img src="images/Monday+Front+Cover+for+Kickstarter+(1).webp" alt="The Monday Album by Daily Special" />
+                </div>
+                <div class="album-info">
+                    <h2 class="section-title"><span class="title-accent">The Monday Album</span></h2>
+                    <p>Our debut album is available for digital download! If you want a physical copy or a t-shirt, you'll have to track us down at a show or convention. (Or reach out directly and we'll find a way to make it work.)</p>
+                    <p>Thank you so much for your support!</p>
+                    <a href="https://www.outerbridgemusic.com/dailyspecial/p/monday-album-digital-download" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-compact-disc"></i> Buy the Album
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave divider -->
+    <div class="wave-divider wave-flip">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 L1200,120 L0,120 Z" />
+        </svg>
+    </div>
+
+    <!-- Booking / Contact -->
+    <section id="booking" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title"><span class="title-accent">Book Us</span></h2>
+            <p class="section-subtitle">Need entertainment for your next event?</p>
+            <div class="booking-layout">
+                <div class="booking-info">
+                    <p>Daily Special loves performing at all kinds of events:</p>
+                    <ul class="event-list">
+                        <li><i class="fas fa-star"></i> Performances &amp; concerts</li>
+                        <li><i class="fas fa-snowflake"></i> Holiday gatherings</li>
+                        <li><i class="fas fa-briefcase"></i> Corporate events</li>
+                        <li><i class="fas fa-birthday-cake"></i> Birthday parties</li>
+                        <li><i class="fas fa-glass-cheers"></i> Retirement celebrations</li>
+                        <li><i class="fas fa-paw"></i> ...even pet weddings!</li>
+                    </ul>
+                    <p>Our rates are flexible, reasonable, and negotiable. Tell us about your event and we'd love to help make it happen!</p>
+                    <div class="contact-direct">
+                        <a href="mailto:dailyspecialquartet@gmail.com" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i> Email Us Directly
+                        </a>
+                    </div>
+                </div>
+                <div class="booking-form">
+                    <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Jane Smith" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="jane@example.com" />
+                        </div>
+                        <div class="form-group">
+                            <label for="event-type">Event Type</label>
+                            <input type="text" id="event-type" name="event_type" placeholder="Birthday party, corporate event, etc." />
+                        </div>
+                        <div class="form-group">
+                            <label for="event-date">Event Date</label>
+                            <input type="date" id="event-date" name="event_date" />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell Us More</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Tell us about your event..."></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New Booking Inquiry from Daily Special Website" />
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Inquiry
+                        </button>
+                    </form>
+                    <div id="form-status" class="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/ds-logo.png" alt="Daily Special" class="footer-logo" />
+                    <p>Barbershop Quartet<br />Southern New England</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/dailyspecialquartet/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/DailySpecialQuartet/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC4ajzhwAyzPS3xZKinlofOA" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="mailto:dailyspecialquartet@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; <span id="year"></span> Daily Special. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/app.js"></script>
+</body>
 </html>
